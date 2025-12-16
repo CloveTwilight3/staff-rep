@@ -1,0 +1,29 @@
+{
+    "name": "staffrep",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "keywords": [],
+    "author": "thatgirlphotographer",
+    "license": "ISC",
+    "scripts": {
+        "test": "npm run build && node dist/index.js",
+        "build": "tsc",
+        "build:watch": "nodemon --watch src --ext ts --exec npm run build",
+        "start": "node dist/index.js",
+        "dev": "nodemon --watch src --ext ts --exec \"npm run build && npm run start\""
+    },
+    "dependencies": {
+        "better-sqlite3": "^12.4.6",
+        "discord.js": "^14.15.3",
+        "dotenv": "^16.4.5",
+        "mongoose": "^8.4.1",
+        "uuid": "^13.0.0"
+    },
+    "devDependencies": {
+        "@types/better-sqlite3": "^7.6.10",
+        "@types/node": "^20.14.2",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.4.5"
+    }
+}

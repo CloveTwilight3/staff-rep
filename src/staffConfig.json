@@ -1,0 +1,19 @@
+{
+  "channels": {
+    "log": "1450583147413635102",
+    "leaderboard": "1450583041985613924",
+    "management": "1450583099745374280"
+  },
+  "roles": {
+    "manager": "1423732655668723724",
+    "staffHierarchy": [
+      { "id": "1231247596488622243", "rank": 1, "name": "Trainee" },
+      { "id": "1231247596488622244", "rank": 2, "name": "Moderator" },
+      { "id": "1402079356074987682", "rank": 3, "name": "Admin" },
+      { "id": "1423732655668723724", "rank": 4, "name": "Manager" },
+      { "id": "1450598974498013366", "rank": 5, "name": "Distant Parent" },
+      { "id": "1231247596488622247", "rank": 6, "name": "Gay" }
+    ]
+  },
+  "developerIds": ["955530199972347935"]
+}
